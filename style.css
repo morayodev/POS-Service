@@ -1,0 +1,187 @@
+:root {
+  --primary-color: #00425f;
+  --teritial-color: #0275d8;
+  --secondary-color: #00b8de;
+  --grey: #d3d3d3;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+}
+.posImageDiv {
+  width: 50%;
+  /* margin: 0px auto; */
+  text-align: center;
+  border-right: 1px solid var(--grey);
+}
+.formSubTitle {
+  color: var(--primary-color);
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 30px;
+  /* margin: 0px; */
+}
+.formTitle {
+  color: var(--primary-color);
+  /* padding: 5px; */
+  /* text-align: center; */
+
+  margin: 10px 0px 5px 0px;
+}
+.form {
+  width: 40%;
+  padding-top: 30px;
+}
+.formSubmit {
+  /* width: 60%; */
+}
+.formName {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.formLabel {
+  color: var(--primary-color);
+  padding-bottom: 5px;
+}
+.formField {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid var(--grey);
+}
+
+.formInputLast {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.formInput {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.formGen {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7px;
+}
+.FormRadio {
+  font-size: 0.9rem;
+  color: var(--primary-color);
+}
+.formRadioInput {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.formRadioYes {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+}
+.formRadioNo {
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+}
+.formcheckBox {
+  margin: 30px 0px;
+}
+.formcheck {
+  display: flex;
+  align-items: center;
+}
+.formBtn {
+  width: 100%;
+  background-color: var(--teritial-color);
+  padding: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid var(----teritial-color);
+  color: #fff;
+  font-weight: bold;
+}
+.imageHeader {
+  color: var(--secondary-color);
+  padding: 0px;
+  margin-top: 100px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.imageSubHeader {
+  color: var(--primary-color);
+  width: 45%;
+  text-align: center;
+  margin: 0px auto;
+}
+.posImage {
+  width: 350px;
+  margin: auto;
+  object-fit: contain;
+  height: 350px;
+}
+.Icons {
+  color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  padding: 10px;
+  border-radius: 50%;
+}
+.IconsDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-qrcode {
+  font-size: 1.5rem;
+}
+.IconImageText {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.iconText {
+  padding: 0px;
+  margin: 4px;
+  color: var(--primary-color);
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.payMethods {
+  color: var(--secondary-color);
+  letter-spacing: 0.2rem;
+  font-size: 0.7rem;
+}
+/* .formInput.error input {
+  border-color: red;
+}
+.formInput.success input {
+  border-color: green;
+} */
+.formInput small {
+  color: red;
+}
+.formGen small {
+  color: red;
+}
+.formRadioInput small {
+  color: red;
+}
+.formInputLast small {
+  color: red;
+}
+.CheckAgree {
+  font-weight: bold;
+}
