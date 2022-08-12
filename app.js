@@ -142,14 +142,6 @@ const RadioPicked = () => {
   return valid;
 };
 
-//   if (RadioBtn[0].checked == true) {
-//     document.getElementById("msg").innerHTML = "";
-
-//     valid = true;
-//   } else if (RadioBtn[1].checked == true) {
-//     document.getElementById("msg").innerHTML = "";
-
-// valid = true;
 
 const Check = () => {
   let valid = false;
