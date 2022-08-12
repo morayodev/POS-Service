@@ -8,6 +8,7 @@ body {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .container {
   display: flex;
@@ -191,5 +192,14 @@ body {
   }
   .form {
     width: 100% !important;
+  }
+  .formTitle {
+    font-size: 1rem;
+  }
+  .formSubTitle {
+    font-size: 0.8rem;
+  }
+  .formLabel {
+    font-size: 0.7rem;
   }
 }
